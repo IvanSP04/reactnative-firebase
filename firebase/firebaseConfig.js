@@ -4,12 +4,12 @@ import { getFirestore } from 'firebase/firestore';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCjwvhUkUiFSmcLj7bCVkRmFGlTKcRrT9c",
-  authDomain: "crud-3f30d.firebaseapp.com",
-  projectId: "crud-3f30d",
-  storageBucket: "crud-3f30d.firebasestorage.app",
-  messagingSenderId: "17943859340",
-  appId: "1:17943859340:web:6c741f8de4a062a240eba9"
+  apiKey: "AIzaSyDM0oVRLBb6SLUvdLsqewo7YBiH2KZsnn0",
+  authDomain: "expo-nosql-futurama.firebaseapp.com",
+  projectId: "expo-nosql-futurama",
+  storageBucket: "expo-nosql-futurama.firebasestorage.app",
+  messagingSenderId: "100230186067",
+  appId: "1:100230186067:web:d8baba499126b3f705b2a6",
 };
 
 

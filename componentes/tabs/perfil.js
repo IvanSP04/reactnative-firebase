@@ -6,12 +6,10 @@ import {
 import { collection, query, where, getDocs, deleteDoc, doc } from 'firebase/firestore';
 import { signOut } from 'firebase/auth';
 import { auth, db } from '../../firebase/firebaseConfig';
-import { useRouter } from 'expo-router';
 
 export default function Perfil() {
   const [favoritos, setFavoritos] = useState([]);
   const [loading, setLoading] = useState(true);
-  const router = useRouter();
   const user = auth.currentUser;
 
   const fetchFavoritos = async () => {
@@ -39,7 +37,6 @@ export default function Perfil() {
 
   const handleLogout = async () => {
     await signOut(auth);
-    router.replace('/login');
   };
 
   if (loading) {
